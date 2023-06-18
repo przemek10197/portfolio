@@ -1,0 +1,26 @@
+@font-face {
+  font-family: 'Nunito-Sans';
+  src: local('Nunito-Sans'),
+  url(@assets/fonts/NunitoSans/NunitoSans_10pt-Medium.ttf) format('truetype');
+}
+
+$color-main: #23A6F0;
+$color-main-dark: #2093D6;
+$color-dark: #25344F;
+$color-white: #FFFFFF;
+$color-text-dark: #52627A;
+$color-text-white: #FFFFFF;
+
+$spacing-unit: 4px;
+
+$border-radius: 24px;
+
+$font-family-default: 'Nunito-Sans', sans-serif;
+$font-weight-bold: 700;
+$font-size-xl: 22px;
+$font-size-l: 18px;
+$font-size-m: 16px;
+$font-size-s: 14px;
+$font-size-xs: 12px;
+
+$shadow-default: 0 0 12px rgba(0, 0, 0, 0.12);
