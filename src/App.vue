@@ -1,12 +1,22 @@
 <template>
   <div>
-    <h1>Portfolio</h1>
-    <ds-icon />
+    <h3>navbar</h3>
+    <about-page />
+    <skills-page />
+    <projects-page />
+    <experience-page />
+    <hobbies-page />
+    <contact-page />
   </div>
 </template>
 
 <script lang="ts" setup>
-import DsIcon from '@/components/dsIcon/DsIcon.vue';
+import AboutPage from '@/views/AboutPage.vue';
+import SkillsPage from '@/views/SkillsPage.vue';
+import ProjectsPage from '@/views/ProjectsPage.vue';
+import ExperiencePage from '@/views/ExperiencePage.vue';
+import HobbiesPage from '@/views/HobbiesPage.vue';
+import ContactPage from '@/views/ContactPage.vue';
 </script>
 
 <style lang="scss" scoped>
