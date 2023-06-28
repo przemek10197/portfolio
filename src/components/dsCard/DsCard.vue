@@ -29,7 +29,9 @@ const dsCardThemes = {
 };
 
 const cardBackgroundColor = computed((): string => {
-  return props.defaultBackgroundColor || dsCardThemes[props.type].backgroundColor;
+  return (
+    props.defaultBackgroundColor || dsCardThemes[props.type].backgroundColor
+  );
 });
 
 const cardTextColor = computed((): string => {
