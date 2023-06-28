@@ -43,7 +43,6 @@ const cardTextColor = computed((): string => {
 @import '@/styles';
 
 .card {
-  padding: 8 * $spacing-unit;
   width: fit-content;
   border-radius: $border-radius;
   font-family: $font-family-default;
