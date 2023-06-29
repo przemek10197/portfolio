@@ -1,8 +1,8 @@
 export interface DsCardProps {
-  type: DsCardType;
+  type?: DsCardType;
   defaultBackgroundColor?: string;
   defaultTextColor?: string;
-  isShadowVisible: boolean;
+  isShadowVisible?: boolean;
 }
 
 export enum DsCardType {

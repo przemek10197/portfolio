@@ -100,7 +100,7 @@ $section-card-button-offset: 50px;
 
   &__description {
     padding: 0 15 * $spacing-unit;
-    margin-bottom: 15 * $spacing-unit;
+    margin-bottom: 10 * $spacing-unit;
     text-align: center;
     font-size: $font-size-l;
 

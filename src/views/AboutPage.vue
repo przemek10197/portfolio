@@ -71,11 +71,12 @@ const socials = computed((): SocialMediaIconsConfiguration[] => {
 <style lang="scss" scoped>
 @import '@/styles';
 
-$section-height: 600px;
-$img-size: 400px;
+$section-height: 500px;
+$img-size: 360px;
 $img-size-tablet: 300px;
 $img-size-mobile: 200px;
 $section-offset: 100px;
+$section-vertical-offset: 60px;
 $footer-icon-size: 35px;
 
 .section-page {
@@ -92,7 +93,7 @@ $footer-icon-size: 35px;
   &__header {
     margin-top: 0;
     margin-left: $section-offset;
-    padding-top: 2 * $section-offset;
+    padding-top: 2 * $section-vertical-offset;
     font-size: $font-size-title;
     font-weight: $font-weight-bold;
 
@@ -138,7 +139,7 @@ $footer-icon-size: 35px;
 
   &__footer {
     position: absolute;
-    bottom: $section-offset;
+    bottom: 2 * $section-vertical-offset;
     left: $section-offset;
     display: flex;
     align-items: center;
@@ -163,6 +164,11 @@ $footer-icon-size: 35px;
 
     &__icon {
       width: $footer-icon-size;
+      transition: all 0.2s ease;
+
+      &:hover {
+        transform: rotate(6deg);
+      }
     }
   }
 }

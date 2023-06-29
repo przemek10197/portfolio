@@ -1,7 +1,7 @@
 export interface DsIconProps {
   icon: string;
-  color: string;
-  size: DsIconSize;
+  color?: string;
+  size?: DsIconSize;
 }
 
 export enum DsIconSize {
