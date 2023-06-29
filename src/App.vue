@@ -6,7 +6,7 @@
     <projects-page />
     <experience-page />
     <hobbies-page />
-    <contact-page />
+    <!-- <contact-page /> -->
   </div>
 </template>
 
@@ -16,7 +16,7 @@ import SkillsPage from '@/views/SkillsPage.vue';
 import ProjectsPage from '@/views/ProjectsPage.vue';
 import ExperiencePage from '@/views/ExperiencePage.vue';
 import HobbiesPage from '@/views/HobbiesPage.vue';
-import ContactPage from '@/views/ContactPage.vue';
+// import ContactPage from '@/views/ContactPage.vue';
 </script>
 
 <style lang="scss" scoped>
