@@ -125,6 +125,10 @@ const skills: ISkill[] = [
   &__title {
     font-size: $font-size-title;
     text-align: center;
+
+    @include tablet-landscape {
+      font-size: $font-size-title-mobile;
+    }
   }
 
   &__content {
